@@ -1,0 +1,42 @@
+/*
+ *  SPDX-FileCopyrightText: 2020 Carson Black <uhhadd@gmail.com>
+ *
+ *  SPDX-License-Identifier: LGPL-2.0-or-later
+ */
+
+import QtQuick 2.5
+import org.kde.kirigami 2.12 as Kirigami
+
+/**
+ * @brief An ApplicationWindow with a preconfigured PageRouter.
+ *
+ * In order to call functions on the PageRouter, use @link PageRouterAttached  the attached Kirigami.PageRouter object @endlink.
+ *
+ * @inherit org::kde::kirigami::ApplicationWindow
+ */
+Kirigami.ApplicationWindow {
+    id: __kirigamiApplicationWindow
+
+    /**
+     * @see org::kde::kirigami::PageRouter::routes
+     * @property list<Kirigami.PageRoute> route
+     */
+    default property alias routes: __kirigamiPageRouter.routes
+
+    /**
+     * @see org::kde::kirigami::PageRouter::initialRoute
+     * @property string initialRoute
+     */
+    property alias initialRoute: __kirigamiPageRouter.initialRoute
+
+    /**
+     * @brief This property holds this window's PageRouter.
+     * @property org::kde::kirigami::PageRouter
+     */
+    property alias router: __kirigamiPageRouter
+
+    Kirigami.PageRouter {
+        id: __kirigamiPageRouter
+        pageStack: __kirigamiApplicationWindow.pageStack.columnView
+    }
+}

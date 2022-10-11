@@ -1,0 +1,254 @@
+# Translation of libkirigami2plugin_qt.po to Brazilian Portuguese
+# Copyright (C) 2016-2019 This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Luiz Fernando Ranghetti <elchevive@opensuse.org>, 2016, 2017, 2018, 2019, 2020, 2021, 2022.
+# André Marcelo Alvarenga <alvarenga@kde.org>, 2018, 2019.
+# Thiago Masato Costa Sueto <herzenschein@gmail.com>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: libkirigami2plugin_qt\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"PO-Revision-Date: 2022-07-12 16:26-0300\n"
+"Last-Translator: Luiz Fernando Ranghetti <elchevive@opensuse.org>\n"
+"Language-Team: Portuguese <kde-i18n-pt_BR@kde.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Qt-Contexts: true\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 21.12.3\n"
+
+#: controls/AboutItem.qml:121
+#, qt-format
+msgctxt "AboutItem|"
+msgid "%1 (%2)"
+msgstr "%1 (%2)"
+
+#: controls/AboutItem.qml:130
+#, qt-format
+msgctxt "AboutItem|"
+msgid "Visit %1's KDE Store page"
+msgstr "Visite a página do %1 na KDE Store"
+
+#: controls/AboutItem.qml:139
+#, qt-format
+msgctxt "AboutItem|"
+msgid "Send an email to %1"
+msgstr "Enviar e-mail para %1"
+
+#: controls/AboutItem.qml:186
+msgctxt "AboutItem|"
+msgid "Get Involved"
+msgstr "Participe"
+
+#: controls/AboutItem.qml:198
+msgctxt "AboutItem|"
+msgid "Copyright"
+msgstr "Copyright"
+
+#: controls/AboutItem.qml:247
+msgctxt "AboutItem|"
+msgid "License:"
+msgstr "Licença:"
+
+#: controls/AboutItem.qml:269
+#, qt-format
+msgctxt "AboutItem|"
+msgid "License: %1"
+msgstr "Licença: %1"
+
+#: controls/AboutItem.qml:280
+msgctxt "AboutItem|"
+msgid "Libraries in use"
+msgstr "Bibliotecas em uso"
+
+#: controls/AboutItem.qml:310
+msgctxt "AboutItem|"
+msgid "Authors"
+msgstr "Autores"
+
+#: controls/AboutItem.qml:319
+msgctxt "AboutItem|"
+msgid "Show author photos"
+msgstr "Mostrar as fotos dos autores"
+
+#: controls/AboutItem.qml:350
+msgctxt "AboutItem|"
+msgid "Credits"
+msgstr "Créditos"
+
+#: controls/AboutItem.qml:363
+msgctxt "AboutItem|"
+msgid "Translators"
+msgstr "Tradutores"
+
+#: controls/AboutPage.qml:85
+#, qt-format
+msgctxt "AboutPage|"
+msgid "About %1"
+msgstr "Sobre %1"
+
+#: controls/AboutPage.qml:88
+msgctxt "AboutPage|"
+msgid "Report Bug…"
+msgstr "Relatar erro..."
+
+#: controls/AbstractApplicationWindow.qml:344
+msgctxt "AbstractApplicationWindow|"
+msgid "Quit"
+msgstr "Sair"
+
+#: controls/ActionToolBar.qml:204
+msgctxt "ActionToolBar|"
+msgid "More Actions"
+msgstr "Mais ações"
+
+#: controls/Avatar.qml:161
+#, qt-format
+msgctxt "Avatar|"
+msgid "%1 — %2"
+msgstr "%1 — %2"
+
+#: controls/Chip.qml:82
+msgctxt "Chip|"
+msgid "Remove Tag"
+msgstr "Remover etiqueta"
+
+#: controls/ContextDrawer.qml:69
+msgctxt "ContextDrawer|"
+msgid "Actions"
+msgstr "Ações"
+
+#: controls/GlobalDrawer.qml:498
+msgctxt "GlobalDrawer|"
+msgid "Back"
+msgstr "Voltar"
+
+#: controls/GlobalDrawer.qml:591
+msgctxt "GlobalDrawer|"
+msgid "Close Sidebar"
+msgstr "Fechar barra lateral"
+
+#: controls/GlobalDrawer.qml:594
+msgctxt "GlobalDrawer|"
+msgid "Open Sidebar"
+msgstr "Abrir barra lateral"
+
+#: controls/LoadingPlaceholder.qml:54
+msgctxt "LoadingPlaceholder|"
+msgid "Loading…"
+msgstr "Carregando..."
+
+#: controls/PasswordField.qml:43
+msgctxt "PasswordField|"
+msgid "Password"
+msgstr "Senha"
+
+#: controls/SearchField.qml:95
+msgctxt "SearchField|"
+msgid "Search…"
+msgstr "Pesquisar..."
+
+#: controls/SearchField.qml:97
+msgctxt "SearchField|"
+msgid "Search"
+msgstr "Pesquisar"
+
+#: controls/settingscomponents/CategorizedSettings.qml:30
+#: controls/settingscomponents/CategorizedSettings.qml:53
+msgctxt "CategorizedSettings|"
+msgid "Settings"
+msgstr "Configurações"
+
+#: controls/settingscomponents/CategorizedSettings.qml:30
+#, qt-format
+msgctxt "CategorizedSettings|"
+msgid "Settings — %1"
+msgstr "Configurações — %1"
+
+#. Accessibility text for a page tab. Keep the text as concise as possible and don't use a percent sign.
+#: controls/swipenavigator/templates/PageTab.qml:39
+#, qt-format
+msgctxt "PageTab|"
+msgid "Current page. Progress: %1 percent."
+msgstr "Página atual. Progresso: %1 porcento."
+
+#. Accessibility text for a page tab. Keep the text as concise as possible.
+#: controls/swipenavigator/templates/PageTab.qml:42
+#, qt-format
+msgctxt "PageTab|"
+msgid "Navigate to %1. Progress: %2 percent."
+msgstr "Navegar para %1. Progresso: %2 porcento."
+
+#. Accessibility text for a page tab. Keep the text as concise as possible.
+#: controls/swipenavigator/templates/PageTab.qml:47
+msgctxt "PageTab|"
+msgid "Current page."
+msgstr "Página atual."
+
+#. Accessibility text for a page tab that's requesting the user's attention. Keep the text as concise as possible.
+#: controls/swipenavigator/templates/PageTab.qml:50
+#, qt-format
+msgctxt "PageTab|"
+msgid "Navigate to %1. Demanding attention."
+msgstr "Navegar para %1. Demandando atenção."
+
+#. Accessibility text for a page tab that's requesting the user's attention. Keep the text as concise as possible.
+#: controls/swipenavigator/templates/PageTab.qml:53
+#, qt-format
+msgctxt "PageTab|"
+msgid "Navigate to %1."
+msgstr "Navegar para %1."
+
+#: controls/templates/OverlayDrawer.qml:140
+#, fuzzy
+#| msgctxt "GlobalDrawer|"
+#| msgid "Close Sidebar"
+msgctxt "OverlayDrawer|"
+msgid "Close drawer"
+msgstr "Fechar barra lateral"
+
+#: controls/templates/OverlayDrawer.qml:146
+msgctxt "OverlayDrawer|"
+msgid "Open drawer"
+msgstr ""
+
+#: controls/templates/private/BackButton.qml:36
+msgctxt "BackButton|"
+msgid "Navigate Back"
+msgstr "Voltar"
+
+#: controls/templates/private/ForwardButton.qml:34
+msgctxt "ForwardButton|"
+msgid "Navigate Forward"
+msgstr "Avançar"
+
+#: controls/ToolBarApplicationHeader.qml:114
+msgctxt "ToolBarApplicationHeader|"
+msgid "More Actions"
+msgstr "Mais ações"
+
+#: controls/UrlButton.qml:47
+msgctxt "UrlButton|"
+msgid "Copy Link to Clipboard"
+msgstr "Copiar link para a área de transferência"
+
+#: settings.cpp:220
+#, qt-format
+msgctxt "Settings|"
+msgid "KDE Frameworks %1"
+msgstr "KDE Frameworks %1"
+
+#: settings.cpp:222
+#, qt-format
+msgctxt "Settings|"
+msgid "The %1 windowing system"
+msgstr "O sistema de janelas %1"
+
+#: settings.cpp:223
+#, qt-format
+msgctxt "Settings|"
+msgid "Qt %2 (built against %3)"
+msgstr "Qt %2 (compilado com %3)"
